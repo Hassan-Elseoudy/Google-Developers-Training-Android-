@@ -59,3 +59,36 @@ ___
     + You can look up their definitions in the [Vocab Glossary](https://developers.google.com/android/for-all/vocab-words/).
       + Hint: At 6:14, Katherine mentions we can use TextView with icons as buttons. Here's an example of how to do so. Note this is beyond the scope of the lesson, so don't worry if you don't understand it yet.
     +**[Solution](https://www.youtube.com/watch?v=5aJ6zJEPBHk)**
+ ___
+ * **2.7 Relative Layout**
+    + **[Relative layout: video](https://www.youtube.com/watch?v=CW7M_akbp64)**
+    + `android:layout_alighParentTop="True/False"` || `android:layout_alighParentBottom="True/False"`
+    + `android:layout_alighParentLeft="True/False"` | `android:layout_alignParentRight="True/False"`
+    + `android:layout_centerVertical="True/False"` || `android:layout_centerHorizontal="True/False"`
+    + Relative layout must be `android:layout_width="match_parent` && `android:layout_height="match_parent`
+    + Link to the **[XML visualizer](https://labs.udacity.com/android-visualizer/#/android/relative-layout-align-to-parent)**
+    + **[Documentation on Relative Layout](https://developer.android.com/reference/android/widget/RelativeLayout.LayoutParams?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)**
+___
+ * **2.8 Quiz: Relative to parent**
+    + **[Relative to parent: video](https://www.youtube.com/watch?v=TrZR5IkIwvs)**
+    + **[Link to the code](https://gist.github.com/anonymous/e7eb5ceff9dedfc376eb)**
+    + **[Solution: video](https://www.youtube.com/watch?v=Hf4YoUjRP7s)**
+___
+ * **2.9 Quiz: Relative to other views**
+    + **[Relative to other views: video](https://www.youtube.com/watch?v=fXUpXWSvLrU)**
+    + **Notes**
+        + Assigning view ID names `android:id="@+id/example"`
+        + Positioning children    
+            + `android:layout_toLeftOf="@id/example"`
+            + `android:layout_torightOf="@id/example"`
+            + `android:layout_above="@id/example"`
+    + **[Link to XML Visualizer: video](https://labs.udacity.com/android-visualizer/#/android/relative-layout-view-ids)**
+    + **[Documentations](https://developer.android.com/reference/android/widget/RelativeLayout.LayoutParams?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)**
+    + You can look up their definitions in the **[Vocab Glossary](https://developers.google.com/android/for-all/vocab-words/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)**.
+    + **[Solution: video](https://www.youtube.com/watch?v=qpv3g0p_VjE)**
+ ___
+
+
+
+
+ 
